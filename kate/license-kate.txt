@@ -1,0 +1,28 @@
+
+https://binary-factory.kde.org/job/Kate_Release_win64/lastSuccessfulBuild/artifact/
+https://kde.org/info/releases-23.04.3/
+
+
+"
+## Licensing
+
+Contributions to kate.git shall be licensed under [LGPLv2+](LICENSES/LGPL-2.0-or-later.txt) or [MIT](LICENSES/MIT.txt).
+
+All files shall contain a proper "SPDX-License-Identifier: LGPL-2.0-or-later" or "SPDX-License-Identifier: MIT" identifier inside a header like:
+
+```cpp
+/*
+    SPDX-FileCopyrightText: 2021 Christoph Cullmann <cullmann@kde.org>
+
+    SPDX-License-Identifier: LGPL-2.0-or-later
+*/
+```
+
+```cpp
+/*
+    SPDX-FileCopyrightText: 2021 Christoph Cullmann <cullmann@kde.org>
+
+    SPDX-License-Identifier: MIT
+*/
+```
+"

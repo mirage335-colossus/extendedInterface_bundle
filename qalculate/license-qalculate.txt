@@ -1,0 +1,4 @@
+https://github.com/Qalculate/qalculate-qt
+https://github.com/Qalculate/qalculate-qt/blob/main/COPYING
+
+Qalculate is apparently distributed under the 'GNU General Public License v2.0'.
