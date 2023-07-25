@@ -1,5 +1,9 @@
 
 https://binary-factory.kde.org/job/Kate_Release_win64/lastSuccessfulBuild/artifact/
+
+https://binary-factory.kde.org/job/Kate_Release_win64/2100/
+ 'Revision: f80fab12b50785adfefa8f45f39b92cc32de66b2'
+
 https://kde.org/info/releases-23.04.3/
 
 
