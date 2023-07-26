@@ -2926,7 +2926,7 @@ wget https://github.com/jshafer817/vJoy/releases/download/v2.1.9.1/vJoySetup.exe
 
 
 cd "$scriptAbsoluteFolder"/vjoy/vJoy-v2.2.1.1
-rm -f vJoySetup-2.2.1-signed
+rm -f vJoySetup-2.2.1-signed.exe
 wget https://github.com/njz3/vJoy/releases/download/v2.2.1.1/vJoySetup-2.2.1-signed.exe
 
 
