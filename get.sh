@@ -2888,6 +2888,12 @@ fi
 cd "$scriptAbsoluteFolder"
 
 
+mkdir -p "$scriptAbsoluteFolder"/openssh
+cd "$scriptAbsoluteFolder"/openssh
+rm -f OpenSSH-Win64-v9.2.2.0.msi
+wget https://github.com/PowerShell/Win32-OpenSSH/releases/download/v9.2.2.0p1-Beta/OpenSSH-Win64-v9.2.2.0.msi
+
+
 
 
 mkdir -p "$scriptAbsoluteFolder"/joystickgremlin
