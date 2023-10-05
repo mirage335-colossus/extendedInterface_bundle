@@ -2890,6 +2890,7 @@ cd "$scriptAbsoluteFolder"
 
 
 
+mkdir -p "$scriptAbsoluteFolder"/joystickgremlin
 cd "$scriptAbsoluteFolder"/joystickgremlin
 rm -f Joystick.Gremlin.R13.3.msi
 wget https://github.com/WhiteMagic/JoystickGremlin/releases/download/Release_13.3/Joystick.Gremlin.R13.3.msi
@@ -2900,11 +2901,13 @@ echo 'R13.3.debug' > Joystick.Gremlin.R13.3.debug/zVersion-overlay-R13.3.debug.t
 rm -f Joystick.Gremlin.R13.3.debug.zip
 
 
+mkdir -p "$scriptAbsoluteFolder"/kate
 cd "$scriptAbsoluteFolder"/kate
 rm -f kate-23.04.3-2102-windows-cl-msvc2019-x86_64.exe
 wget https://binary-factory.kde.org/job/Kate_Release_win64/2102/artifact/kate-23.04.3-2102-windows-cl-msvc2019-x86_64.exe
 
 
+mkdir -p "$scriptAbsoluteFolder"/nircmd
 cd "$scriptAbsoluteFolder"/nircmd
 rm -f nircmd-x64.zip
 rm -f NirCmd.chm
@@ -2915,21 +2918,27 @@ unzip nircmd-x64.zip
 rm -f nircmd-x64.zip
 
 
+mkdir -p "$scriptAbsoluteFolder"/qalculate
 cd "$scriptAbsoluteFolder"/qalculate
 rm -f qalculate-4.7.0-x64.msi
-wget https://github.com/Qalculate/libqalculate/releases/download/v4.7.0/qalculate-4.7.0-x64.msi
+#wget https://github.com/Qalculate/libqalculate/releases/download/v4.7.0/qalculate-4.7.0-x64.msi
+rm -f qalculate-4.8.1-x64.msi
+wget https://github.com/Qalculate/libqalculate/releases/download/v4.8.1/qalculate-4.8.1-x64.msi
 
 
+mkdir -p "$scriptAbsoluteFolder"/tigervnc
 cd "$scriptAbsoluteFolder"/tigervnc
 rm -f tigervnc64-1.13.1.exe
 wget -O tigervnc64-1.13.1.exe https://sourceforge.net/projects/tigervnc/files/stable/1.13.1/tigervnc64-1.13.1.exe/download
 
 
+mkdir -p "$scriptAbsoluteFolder"/vjoy/vJoy-v2.1.9.1
 cd "$scriptAbsoluteFolder"/vjoy/vJoy-v2.1.9.1
 rm -f vJoySetup.exe
 wget https://github.com/jshafer817/vJoy/releases/download/v2.1.9.1/vJoySetup.exe
 
 
+mkdir -p "$scriptAbsoluteFolder"/vjoy/vJoy-v2.2.1.1
 cd "$scriptAbsoluteFolder"/vjoy/vJoy-v2.2.1.1
 rm -f vJoySetup-2.2.1-signed.exe
 wget https://github.com/njz3/vJoy/releases/download/v2.2.1.1/vJoySetup-2.2.1-signed.exe
