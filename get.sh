@@ -2894,6 +2894,11 @@ cd "$scriptAbsoluteFolder"/joystickgremlin
 rm -f Joystick.Gremlin.R13.3.msi
 wget https://github.com/WhiteMagic/JoystickGremlin/releases/download/Release_13.3/Joystick.Gremlin.R13.3.msi
 
+wget https://github.com/WhiteMagic/JoystickGremlin/releases/download/Release_13.3_debug/Joystick.Gremlin.R13.3.debug.zip
+unzip Joystick.Gremlin.R13.3.debug.zip
+echo 'R13.3.debug' > Joystick.Gremlin.R13.3.debug/zVersion-overlay-R13.3.debug.txt
+rm -f Joystick.Gremlin.R13.3.debug.zip
+
 
 cd "$scriptAbsoluteFolder"/kate
 rm -f kate-23.04.3-2102-windows-cl-msvc2019-x86_64.exe
