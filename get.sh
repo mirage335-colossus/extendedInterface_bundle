@@ -2895,7 +2895,10 @@ cd "$scriptAbsoluteFolder"/joystickgremlin
 rm -f Joystick.Gremlin.R13.3.msi
 wget https://github.com/WhiteMagic/JoystickGremlin/releases/download/Release_13.3/Joystick.Gremlin.R13.3.msi
 
+rm -f Joystick.Gremlin.R13.3.debug.zip
 wget https://github.com/WhiteMagic/JoystickGremlin/releases/download/Release_13.3_debug/Joystick.Gremlin.R13.3.debug.zip
+export safeToDeleteGit=true
+_safeRMR "$scriptAbsoluteFolder"/joystickgremlin/Joystick.Gremlin.R13.3.debug
 unzip Joystick.Gremlin.R13.3.debug.zip
 echo 'R13.3.debug' > Joystick.Gremlin.R13.3.debug/zVersion-overlay-R13.3.debug.txt
 rm -f Joystick.Gremlin.R13.3.debug.zip
