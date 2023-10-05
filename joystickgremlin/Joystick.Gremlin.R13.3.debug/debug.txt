@@ -1,0 +1,16 @@
+[2019-11-25 20:10:55.720] [debug] [info] Setting device change callback
+[2019-11-25 20:10:55.721] [debug] [info] Setting event callback
+[2019-11-25 20:10:56.038] [debug] [info] Initializing DILL v1.3
+[2019-11-25 20:10:56.079] [debug] [info] {4BF172C0-EAE3-11E7-8005-444553540000}: Processing device: vJoy Device
+[2019-11-25 20:10:56.083] [debug] [info] Skipping device {4BF172C0-EAE3-11E7-8005-444553540000}, not yet fully initialized
+[2019-11-25 20:10:56.084] [debug] [info] Device summary: vJoy Device {4BF172C0-EAE3-11E7-8005-444553540000}
+[2019-11-25 20:10:56.085] [debug] [info] Axis=8 Buttons=32 Hats=4
+[2019-11-25 20:10:56.085] [debug] [info] Axis map
+[2019-11-25 20:10:56.085] [debug] [info]   linear=1 id=1
+[2019-11-25 20:10:56.085] [debug] [info]   linear=2 id=2
+[2019-11-25 20:10:56.085] [debug] [info]   linear=3 id=3
+[2019-11-25 20:10:56.085] [debug] [info]   linear=4 id=4
+[2019-11-25 20:10:56.085] [debug] [info]   linear=5 id=5
+[2019-11-25 20:10:56.085] [debug] [info]   linear=6 id=6
+[2019-11-25 20:10:56.085] [debug] [info]   linear=7 id=7
+[2019-11-25 20:10:56.085] [debug] [info]   linear=8 id=8
