@@ -2954,7 +2954,10 @@ wget https://github.com/njz3/vJoy/releases/download/v2.2.1.1/vJoySetup-2.2.1-sig
 
 
 
-
+mkdir -p "$scriptAbsoluteFolder"/gh/
+cd "$scriptAbsoluteFolder"/gh/
+rm -f gh_2.32.1_windows_amd64.msi
+wget https://github.com/cli/cli/releases/download/v2.32.1/gh_2.32.1_windows_amd64.msi
 
 
 
