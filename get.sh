@@ -2961,7 +2961,12 @@ wget https://github.com/cli/cli/releases/download/v2.32.1/gh_2.32.1_windows_amd6
 
 
 
-
+mkdir -p "$scriptAbsoluteFolder"/npi/
+cd "$scriptAbsoluteFolder"/npi/
+rm -f nvidiaProfileInspector.zip
+wget https://github.com/Orbmu2k/nvidiaProfileInspector/releases/download/2.3.0.13/nvidiaProfileInspector.zip
+unzip -o nvidiaProfileInspector.zip
+rm -f nvidiaProfileInspector.zip
 
 
 
