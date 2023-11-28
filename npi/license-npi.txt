@@ -1,6 +1,8 @@
 
 --------------------------------------------------
 
+https://github.com/Orbmu2k/nvidiaProfileInspector/blob/master/LICENSE.txt
+
 nvidiaProfileInspector is licensed under MIT license.
 
 ----------------
