@@ -2970,5 +2970,16 @@ rm -f nvidiaProfileInspector.zip
 
 
 
+mkdir -p "$scriptAbsoluteFolder"/cru/
+cd "$scriptAbsoluteFolder"/cru/
+rm -f cru-1.5.2.zip
+wget https://www.monitortests.com/download/cru/cru-1.5.2.zip
+unzip -o cru-1.5.2.zip
+rm -f cru-1.5.2.zip
+rm -f cru-1.5.2-src.zip
+wget https://www.monitortests.com/download/cru/cru-1.5.2-src.zip
+
+
+
 
 
